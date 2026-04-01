@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const envPath = path.resolve(__dirname, "../.env");
-dotenv.config({ path: envPath });
+dotenv.config({ path: envPath, override: false });
 
 const parseOrigins = (value) =>
   value

@@ -26,5 +26,8 @@ dist-ssr
 #Fake backend for testing
 db.json
 test.js
-
+server/.env
+mongod
+mongodb.msi
+*.msi
 server/data
